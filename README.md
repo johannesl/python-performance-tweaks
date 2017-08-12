@@ -6,7 +6,7 @@ Made by Johannes Ridderstedt, johannesl@46elks.com
 
 ## uuid4()
 
-When generating unique IDs it's common to use the `uuid.uiid4` function. However, out in the real world there is a trade off between potential collisions and execution time. Using a PRNG seeded with real random bits is usually random enough for most systems and way faster. This is what my new `fast_uuid` function does.
+When generating unique IDs it's common to use the `uuid.uiid4` function. However, out in the real world there is a trade off between potential collisions and execution time. Using a PRNG seeded with real random bits is usually random enough for most systems and way faster. This is what my new `fast_uuid4` and `uuid4` functions does.
 
     $ python uuid4-vs-fast_uuid4.py
                   run_uuid4(10000): 0.14s
