@@ -22,3 +22,5 @@ When generating unique IDs it's common to use the `uuid.uiid4` function. However
             run_fast_uuid4c(1000000): 0.73s
             run_fast_uuid4d(1000000): 0.65s
             run_fast_uuid4e(1000000): 0.62s
+
+*My functions fast_uuid4 and uuid4 are released as public domain. Use freely.*

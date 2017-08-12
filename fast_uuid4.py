@@ -3,7 +3,7 @@
 #  Returns a string directly instead of an UUID object.
 #
 #  Written by Johannes Ridderstedt <johannesl@46elks.com>
-#  Release as public domain. Use freely.
+#  Released as public domain. Use freely.
 #
 
 import random
